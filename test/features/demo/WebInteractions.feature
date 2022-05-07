@@ -1,8 +1,8 @@
+@web-interactions
 Feature: Web Interactions
 
     Demonstate the web interactions of various web elements
 
-    @web-interactions
     Scenario Outline: Input Box interaction
         Given An input box web page is opened
         When The user selects the input box
@@ -11,3 +11,12 @@ Feature: Web Interactions
     Example:
             | TestId    |
             | Web_TC002 |
+
+    Scenario Outline: Check Box interaction
+        Given A checkbox web page is opened
+        When The user clicks on first checkbox
+        Then The first checkbox should be checked
+
+    Example:
+            | TestId    |
+            | Web_TC003 |
