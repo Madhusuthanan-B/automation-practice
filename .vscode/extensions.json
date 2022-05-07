@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+        "vscode-icons-team.vscode-icons",
+        "esbenp.prettier-vscode",
+        "christian-kohler.path-intellisense",
+        "christian-kohler.npm-intellisense",
+        "alexkrechik.cucumberautocomplete",
+        "formulahendry.code-runner",
+        "codezombiech.gitignore",
+        "mikestead.dotenv",
+        "streetsidesoftware.code-spell-checker",
+        "blodwynn.featurehighlight",
+        "xabikos.javascriptsnippets",
+        "yzhang.markdown-all-in-one"
+    ]
+}
