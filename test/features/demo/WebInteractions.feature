@@ -35,3 +35,8 @@ Feature: Web Interactions
         Given File upload page is opened
         When The user clicks on "Choose File" button and uploads a file
         Then we should see file uploaded message
+
+    Scenario: Keyboard shortcuts
+        Given Key press page is opened
+        When The the user clears the typed value using keys
+        Then The input box should be cleared
