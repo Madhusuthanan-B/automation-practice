@@ -20,3 +20,8 @@ Feature: Web Interactions
     Example:
             | TestId    |
             | Web_TC003 |
+
+    Scenario: Window handling
+        Given Windows example page is opened
+        When The user clicks on "Elemental Selenium" link
+        Then There should be two new browser windows opened
