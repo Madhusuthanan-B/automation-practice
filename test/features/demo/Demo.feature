@@ -2,7 +2,7 @@ Feature: Demo Feature
 
     Description of feature
 
-    @demo
+    @smoke
     Scenario Outline: Search and open wdio package
         Given npmjs is opened
         When Search with <SearchItem>

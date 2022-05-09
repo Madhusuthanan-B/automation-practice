@@ -1,4 +1,4 @@
-@web-interactions
+@demo
 Feature: Web Interactions
 
     Demonstate the web interactions of various web elements
