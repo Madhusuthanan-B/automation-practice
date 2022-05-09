@@ -21,6 +21,7 @@
         "cloud-dev:demo": "wdio run config/wdio.cloud-dev.conf.ts --cucumberOpts.tagExpression='@demo'",
         "cloud-dev:smoke": "wdio run config/wdio.cloud-dev.conf.ts --cucumberOpts.tagExpression='@smoke'",
         "edge:demo": "wdio run config/wdio.edge.conf.ts --cucumberOpts.tagExpression='@demo'",
-        "edge:smoke": "wdio run config/wdio.edge.conf.ts --cucumberOpts.tagExpression='@smoke'"
+        "edge:smoke": "wdio run config/wdio.edge.conf.ts --cucumberOpts.tagExpression='@smoke'",
+        "debug": "npx wdio repl chrome"
     }
 }
