@@ -16,7 +16,11 @@
     },
     "scripts": {
         "wdio": "wdio run wdio.conf.ts",
-        "demo": "wdio run wdio.conf.ts --cucumberOpts.tagExpression='@demo'",
-        "smoke": "wdio run wdio.conf.ts --cucumberOpts.tagExpression='@smoke'"
+        "local-dev:demo": "wdio run config/wdio.local-dev.conf.ts --cucumberOpts.tagExpression='@demo'",
+        "local-dev:smoke": "wdio run config/wdio.local-dev.conf.ts --cucumberOpts.tagExpression='@smoke'",
+        "cloud-dev:demo": "wdio run config/wdio.cloud-dev.conf.ts --cucumberOpts.tagExpression='@demo'",
+        "cloud-dev:smoke": "wdio run config/wdio.cloud-dev.conf.ts --cucumberOpts.tagExpression='@smoke'",
+        "edge:demo": "wdio run config/wdio.edge.conf.ts --cucumberOpts.tagExpression='@demo'",
+        "edge:smoke": "wdio run config/wdio.edge.conf.ts --cucumberOpts.tagExpression='@smoke'"
     }
 }
