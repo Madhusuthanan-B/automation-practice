@@ -14,6 +14,7 @@ When(/^The user selects the input box$/, async function () {
 });
 
 Then(/^Interact with the input box$/, async function () {
+    console.log(process.env.TEST_VARIABLE);
     const numberString = `12345`;
     const ele = await $(`[type=number]`);
     for (let i = 0; i < numberString.length; i++) {

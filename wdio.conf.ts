@@ -1,4 +1,7 @@
 import type { Options } from '@wdio/types';
+import {config as EnvironmentConfiguration} from 'dotenv';
+
+EnvironmentConfiguration();
 
 export const config: Options.Testrunner = {
     //
